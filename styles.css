@@ -11,7 +11,6 @@ body{
 }
 /* Hero element */
 #main{
-  text-align: center;
   background-color: rgb(215, 215, 215);
 }
 /* Name */
@@ -25,6 +24,7 @@ body{
   color: #333;
   background-color: grey;
   width: 100%;
+  text-align: center;
 }
 
 #title{
@@ -65,20 +65,27 @@ body{
   padding: 50px 0;
   color: #333;
   opacity: 0.9;
+  text-align: center;
 }
 
 /* Timeline */
-ul{
-  text-align: center;
-  /* padding : 0; */
-  margin: 5px;
+#timeline{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
-
+#timeline > ul > li{
+  margin: 20px;
+  font-size: 25px;
+}
 
 /* Sayings */
 h3{
   font-size: 25px;
   margin: 25px;
+  text-align: center;
 }
 
 /* Footer */
@@ -86,4 +93,5 @@ h3{
   font-size: 25px;
   padding: 15px;
   opacity: 0.8;
+  text-align: center;
 }
