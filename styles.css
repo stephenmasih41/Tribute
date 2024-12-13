@@ -1,0 +1,89 @@
+  
+*{ 
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background-color: rgba(249, 243, 243, 0.744);
+}
+/* Hero element */
+#main{
+  text-align: center;
+  background-color: rgb(215, 215, 215);
+}
+/* Name */
+#header{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  margin-bottom: 0;
+  font-size: larger;
+  height: 150px;
+  color: #333;
+  background-color: grey;
+  width: 100%;
+}
+
+#title{
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 32px;
+  padding-top: 15px;
+}
+/* Image */
+#img-div{
+  margin: 25px 25px; 
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image{
+  padding: 15px;
+  display: block;
+  height: auto;
+  width: 40vw;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+#img-caption {
+  font-weight: 450;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+  padding: 20px;
+}
+
+/* Info */
+
+#tribute-info{
+  padding: 50px 0;
+  color: #333;
+  opacity: 0.9;
+}
+
+/* Timeline */
+ul{
+  text-align: center;
+  /* padding : 0; */
+  margin: 5px;
+}
+
+
+/* Sayings */
+h3{
+  font-size: 25px;
+  margin: 25px;
+}
+
+/* Footer */
+#footer{
+  font-size: 25px;
+  padding: 15px;
+  opacity: 0.8;
+}
